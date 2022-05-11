@@ -1,0 +1,5 @@
+-- SELECT *
+-- FROM invoice
+-- WHERE invoice_id IN(
+-- 	SELECT invoice_id FROM invoice_line WHERE unit_price > 0.99
+-- );
